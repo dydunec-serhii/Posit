@@ -1,0 +1,87 @@
+.container {
+    width: 1240px;
+    
+}
+
+
+.list-style {
+    list-style: none;
+}
+
+.margin {
+    position: relative;
+    margin-top: 100px;
+    left: 110px;
+}
+
+.margin2 {
+    position: relative;
+    padding-left: 0;
+    margin-left: 160px;
+    top: -35px;
+    font-size: 30px;
+}
+
+.display {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    gap: 50px;
+    top: -40px;
+    position: relative;
+    left: 70px;
+}
+
+.BAG {
+    position: relative;
+    top: 20px;
+}
+
+.hower:hover {
+    outline: black solid 2px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.p-class{
+    font-size: 37px;
+    position: relative;
+   left: 110px;
+   top: 100px;
+}
+.p-class2{
+    position: relative;
+    top: 100px;
+    left: 110px;
+}
+.img2{
+    position: relative;
+  left: 700px;
+  top: -230px;
+}
+.button2{
+    position: relative;
+    top: 110px;
+    left: 110px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.servises{
+    position: relative;
+    bottom: 400px;
+    left: 110px;
+    font-size: 29px;
+    background-color: #B9FF66;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.p-3{
+    position: relative;
+    bottom: 445px;
+    left: 240px;
+}
