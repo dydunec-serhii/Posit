@@ -1,7 +1,13 @@
 .container {
-    width: 1240px;
-    
+    width: 1340px;
+
 }
+
+:root {
+    --green: #B9FF66;
+}
+
+
 
 
 .list-style {
@@ -45,23 +51,27 @@
     padding-right: 5px;
     padding-bottom: 5px;
 }
-.p-class{
+
+.p-class {
     font-size: 37px;
     position: relative;
-   left: 110px;
-   top: 100px;
+    left: 110px;
+    top: 100px;
 }
-.p-class2{
+
+.p-class2 {
     position: relative;
     top: 100px;
     left: 110px;
 }
-.img2{
+
+.img2 {
     position: relative;
-  left: 700px;
-  top: -230px;
+    left: 700px;
+    top: -230px;
 }
-.button2{
+
+.button2 {
     position: relative;
     top: 110px;
     left: 110px;
@@ -70,7 +80,8 @@
     color: white;
     font-size: 14px;
 }
-.servises{
+
+.servises {
     position: relative;
     bottom: 400px;
     left: 110px;
@@ -80,8 +91,84 @@
     padding-left: 5px;
     padding-right: 5px;
 }
-.p-3{
+
+.p-3 {
     position: relative;
     bottom: 445px;
     left: 240px;
+}
+
+.card2-5 {
+    background-color: #B9FF66;
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    outline: #191A23 2px solid;
+
+}
+
+.cards3-6 {
+    background-color: #191A23;
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    outline: #191A23 2px solid;
+}
+
+.cards {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    outline: #191A23 2px solid;
+
+}
+
+.cards-p {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 23px;
+}
+
+.cards-img2 {
+    position: relative;
+    top: -175px;
+    left: 250px;
+}
+
+.cards-img {
+    width: 35px;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.card-p2 {
+    position: relative;
+    margin-top: -25px;
+    left: 90px;
+}
+
+.color-1-4-6 {
+    background-color: #B9FF66;
+    width: 140px;
+}
+
+.card-2-3-5 {
+    background-color: white;
+    width: 140px;
+}
+
+.card-3-6 {
+    color: azure;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -300px;
+    justify-content: center;
+    margin-left: 190px;
+    gap: 30px;
+
 }
