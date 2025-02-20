@@ -1,5 +1,5 @@
 .container {
-    width: 1340px;
+    width: 1250px;
 
 }
 
@@ -168,34 +168,39 @@
     flex-wrap: wrap;
     margin-top: -300px;
     justify-content: center;
-    margin-left: 190px;
+    margin-left: 170px;
     gap: 30px;
 
 }
-.ul-list{
-    background-color: gray ;
+
+.ul-list {
+    background-color: gray;
     width: 1200px;
     height: 280px;
     border-radius: 30px;
     margin-left: 120px;
     margin-top: 100px;
 }
-.img-gay{
+
+.img-gay {
     position: relative;
     left: 600px;
     top: -150px;
 }
-.h2-lets{
+
+.h2-lets {
     position: relative;
-   top: 60px;
-   left: 50px;
+    top: 60px;
+    left: 50px;
 }
-.p-lets{
+
+.p-lets {
     position: relative;
     top: 70px;
     left: 50px;
 }
-.button-lets{
+
+.button-lets {
     position: relative;
     top: -220px;
     left: 50px;
@@ -205,4 +210,118 @@
     background-color: #191A23;
     color: white;
 
+}
+
+.p-case {
+    margin-top: 170px;
+    margin-left: 200px;
+    font-size: 30px;
+    background-color: #B9FF66;
+    width: 170px;
+}
+
+.p-explor {
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
+.baground-sec {
+    background-color: #191A23;
+    width: 1200px;
+    height: 260px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 120px;
+    margin-top: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.green:hover {
+    color: green;
+}
+
+.green {
+    color: #B9FF66;
+    text-decoration: none;
+}
+
+.padding {
+    margin-left: 10px;
+}
+
+.ul-h3 {
+    position: relative;
+    margin-top: 150px;
+
+
+}
+
+.ul-h2 {
+    display: flex;
+    margin-left: 100px;
+    gap: 50px;
+}
+
+.color-h2 {
+    background-color: #B9FF66;
+}
+
+.accordion {
+    width: 900px;
+
+}
+
+.item {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    outline: #191A23 2px solid;
+
+}
+
+.item.active {
+    background: #B9FF66;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+
+}
+
+.title button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+    display: none;
+}
+
+.item.active .content {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.margin3 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
 }
