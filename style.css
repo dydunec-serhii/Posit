@@ -1,14 +1,11 @@
 .container {
     width: 1250px;
-
+    padding-left: 0px;
 }
 
 :root {
     --green: #B9FF66;
 }
-
-
-
 
 .list-style {
     list-style: none;
@@ -376,20 +373,22 @@
     left: 170px;
     margin-top: 100px;
 }
-.sp{
+
+.sp {
     background-color: white !important;
 }
+
 .testimonials {
     text-align: center;
     max-width: 800px;
-    background:#191A23;
+    background: #191A23;
     color: white;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: 300px;
     margin-top: 100px;
-    
+
 }
 
 .subtitle {
@@ -403,7 +402,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-   
+
 }
 
 .testimonial-container {
@@ -452,10 +451,10 @@
 
 .next2 {
     background: none;
-        border: none;
-        color: white;
-        font-size: 24px;
-        cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .dots {
@@ -474,4 +473,113 @@
 
 .dot.active {
     background-color: #c4e538;
+}
+
+.ul-h4 {
+    margin-top: 50px;
+}
+
+.display5 {
+    display: flex;
+    gap: 20px;
+    margin-left: 85px;
+    position: relative;
+    top: 20px;
+}
+
+.custom-radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.custom-radio input {
+    display: none;
+    /* Ховаємо стандартний input */
+}
+
+.radio-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    transition: 0.3s;
+
+}
+
+.custom-radio input:checked+.radio-circle {
+    background-color: #B9FF66;
+
+}
+
+.label {
+    width: 900px;
+    height: 450px;
+    background-color: #aaa;
+    margin-left: 275px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.input2 {
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: -10px;
+
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 40px;
+
+}
+
+.input3 {
+    width: 400px;
+    height: 80px;
+    border-radius: 15px;
+    margin-left: -25px;
+    margin-top: 40px;
+}
+
+.label1 {
+    position: relative;
+    top: -35px;
+    left: 50px;
+}
+
+.label2 {
+    position: relative;
+    top: -55px;
+    left: 50px;
+}
+
+.button-mes {
+    width: 400px;
+    height: 40px;
+    background-color: #191A23;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 43px;
+    margin-top: 30px;
+}
+.big-div{
+width: 400px;
+height: 400px;
+position: relative;
+left: 680px;
+top: -390px;
+}
+.bagr{
+width: 100%;
+background-color: #191A23;
 }
