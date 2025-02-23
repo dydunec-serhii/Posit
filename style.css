@@ -572,14 +572,30 @@
     margin-left: 43px;
     margin-top: 30px;
 }
-.big-div{
-width: 400px;
-height: 400px;
-position: relative;
-left: 680px;
-top: -390px;
+
+.big-div {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 680px;
+    top: -390px;
 }
-.bagr{
-width: 100%;
-background-color: #191A23;
+
+.bagr {
+    width: 100%;
+    background-color: #191A23;
+    border-radius: 30px;
+    margin-left: 110px;
+    margin-bottom: -60px;
+}
+
+.name-inp {
+    padding-left: 20px;
+}
+.whit{
+    color:aliceblue;
+}
+.li-footer{
+    margin-left: 400px;
+    
 }
