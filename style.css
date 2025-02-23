@@ -3,6 +3,14 @@
     padding-left: 0px;
 }
 
+.bagro {
+
+
+background: radial-gradient(circle, #827c7c, #1b5e20, #6b7073);
+
+
+}
+
 :root {
     --green: #B9FF66;
 }
@@ -592,10 +600,12 @@
 .name-inp {
     padding-left: 20px;
 }
-.whit{
-    color:aliceblue;
+
+.whit {
+    color: aliceblue;
 }
-.li-footer{
+
+.li-footer {
     margin-left: 400px;
-    
+
 }
