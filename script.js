@@ -1,3 +1,5 @@
+const ask = alert("дякую за довіру до нашого сайту!!");
+console.log("ask");
 document.querySelectorAll(".title").forEach(item => {
     item.addEventListener("click", () => {
         let parent = item.parentElement;
@@ -39,3 +41,4 @@ dots.forEach((dot, i) => {
         showTestimonial(currentIndex);
     });
 });
+
