@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
 .bagro {
     background: radial-gradient(circle, #6e6969, #5bc762, #606365);
 }
@@ -40,6 +44,19 @@
     left: 70px;
 }
 
+@media screen and (max-width:1024px) {
+    .display {
+        margin-right: 350px;
+        gap: 30px;
+
+    }
+}
+
+.max-decstop {
+    margin-left: -50px;
+    margin-top: -60px;
+}
+
 .BAG {
     position: relative;
     top: 20px;
@@ -73,6 +90,18 @@
     top: -230px;
 }
 
+@media screen and (max-width:1024px) {
+    .img2 {
+        position: relative;
+        left: 500px;
+        width: 500px;
+    }
+
+    .dec {
+        margin-top: 20px;
+    }
+}
+
 .button2 {
     position: relative;
     top: 110px;
@@ -98,6 +127,14 @@
     position: relative;
     bottom: 445px;
     left: 240px;
+}
+
+@media screen and (max-width:1024px) {
+    .p-3 {
+        position: relative;
+        top: -350px;
+        left: 60px;
+    }
 }
 
 .card2-5 {
@@ -165,6 +202,16 @@
     color: azure;
 }
 
+@media screen and (max-width:1024px) {
+    .card-decsr {
+        margin-left: -220px !important;
+    }
+    .cards-decstop{
+        width: 450px;
+    }
+    
+}
+
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -183,7 +230,13 @@
     margin-left: 120px;
     margin-top: 100px;
 }
-
+@media screen and (max-width:1024px) {
+    .ul-list{
+        margin-left: 40px;
+        max-width: 900px;
+    }
+    
+}
 .img-gay {
     position: relative;
     left: 600px;
@@ -701,4 +754,17 @@
     margin-bottom: 50px;
     position: relative;
     left: 50px;
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        max-width: 1024px;
+        margin: 0;
+    }
+.container{
+    max-width: 1024px;
+}
+    .ul-head {
+        margin-left: -50px;
+    }
 }
