@@ -206,10 +206,11 @@ body {
     .card-decsr {
         margin-left: -220px !important;
     }
-    .cards-decstop{
+
+    .cards-decstop {
         width: 450px;
     }
-    
+
 }
 
 .card {
@@ -230,16 +231,18 @@ body {
     margin-left: 120px;
     margin-top: 100px;
 }
+
 @media screen and (max-width:1024px) {
-    .ul-list{
+    .ul-list {
         margin-left: 40px;
         max-width: 900px;
     }
-    
+
 }
+
 .img-gay {
     position: relative;
-    left: 600px;
+    left: 400px;
     top: -150px;
 }
 
@@ -295,6 +298,14 @@ body {
     color: aliceblue;
 }
 
+@media screen and (max-width:1024px) {
+    .baground-sec {
+        margin-left: 35px;
+        gap: 20px;
+        width: 900px;
+    }
+}
+
 .green:hover {
     color: green;
 }
@@ -311,8 +322,13 @@ body {
 .ul-h3 {
     position: relative;
     margin-top: 150px;
+}
 
-
+@media screen and (max-width:1024px) {
+    .ul-h3 {
+        position: relative;
+        left: -80px;
+    }
 }
 
 .ul-h2 {
@@ -381,6 +397,12 @@ body {
     margin-left: 200px;
 }
 
+@media screen and (max-width:1024px) {
+    .margin3 {
+        margin-left: -20px;
+    }
+}
+
 .li-card {
     width: 350px;
     height: 300px;
@@ -432,6 +454,12 @@ body {
     margin-top: 100px;
 }
 
+@media screen and (max-width:1024px) {
+    .margin4 {
+        margin-left: -25px;
+    }
+}
+
 .sp {
     background-color: white !important;
 }
@@ -447,6 +475,13 @@ body {
     margin-left: 300px;
     margin-top: 100px;
 
+}
+
+@media screen and (max-width:1024px) {
+    .testimonials {
+        position: relative;
+        left: -160px;
+    }
 }
 
 .subtitle {
@@ -543,6 +578,13 @@ body {
     margin-left: 85px;
     position: relative;
     top: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .label {
+        position: relative;
+        left: -220px;
+    }
 }
 
 .custom-radio {
@@ -649,6 +691,27 @@ body {
     margin-top: 100px;
 }
 
+@media screen and (max-width:1024px) {
+    .bagr {
+        width: 90%;
+        margin-left: 40px;
+    }
+
+    .li-footer {
+        position: relative;
+        right: 100px;
+    }
+
+    .ul-img {
+        margin-top: 70px;
+    }
+    .ul-foot{
+       position: relative;
+       left: 100px;
+    }
+    
+}
+
 .name-inp {
     padding-left: 20px;
 }
@@ -724,6 +787,7 @@ body {
     margin-left: 600px;
     position: relative;
     bottom: 210px;
+   margin-left: 330px;
 }
 
 .label-foot {
@@ -751,7 +815,6 @@ body {
 }
 
 .ul-foot {
-    margin-bottom: 50px;
     position: relative;
     left: 50px;
 }
@@ -761,9 +824,11 @@ body {
         max-width: 1024px;
         margin: 0;
     }
-.container{
-    max-width: 1024px;
-}
+
+    .container {
+        max-width: 1024px;
+    }
+
     .ul-head {
         margin-left: -50px;
     }
