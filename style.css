@@ -371,7 +371,20 @@ body {
         width: 900px;
     }
 }
-
+@media screen and (min-width:1025px) {
+    .baground-sec {
+        margin-left: 105px;
+        gap: 20px;
+        width: 900px;
+    }
+}
+@media screen and (min-width:1300px) {
+    .baground-sec {
+        margin-left: 300px;
+        gap: 20px;
+        width: 900px;
+    }
+}
 .green:hover {
     color: green;
 }
@@ -468,7 +481,11 @@ body {
         margin-left: -20px;
     }
 }
-
+@media screen and (min-width:1300px) {
+    .margin3 {
+        margin-left: -20px;
+    }
+}
 .li-card {
     width: 350px;
     height: 300px;
@@ -509,7 +526,11 @@ body {
 .p-h6 {
     margin-top: -30px;
 }
-
+@media screen and (min-width:1300px) {
+    .margin4 {
+       gap: 40px;
+    }
+}
 .margin4 {
     display: flex;
     flex-wrap: wrap;
@@ -523,6 +544,17 @@ body {
 @media screen and (max-width:1024px) {
     .margin4 {
         margin-left: -25px;
+    }
+}
+@media screen and (min-width:1045px) {
+    .margin4 {
+        margin-left: -25px;
+    }
+}
+@media screen and (min-width:1123px) {
+    .margin4 {
+        margin-left: -150px;
+        gap: 20px;
     }
 }
 
