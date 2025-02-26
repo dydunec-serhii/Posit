@@ -1,10 +1,14 @@
-.container {
-    width: 1250px;
-    padding-left: 0px;
-    margin: 0;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding-left: 0px;
     margin: 0;
 }
 
@@ -51,7 +55,20 @@ body {
 
     }
 }
+@media screen and (min-width:1085px) {
+    .display {
+        margin-right: 200px;
+        gap: 30px;
 
+    }
+}
+@media screen and (max-width:1090px) {
+    .display {
+        margin-right: 350px;
+        gap: 30px;
+
+    }
+}
 .max-decstop {
     margin-left: -50px;
     margin-top: -60px;
@@ -101,7 +118,27 @@ body {
         margin-top: 20px;
     }
 }
-
+@media screen and (min-width:1025px) {
+    .img2 {
+       position: relative;
+       left: 600px;
+       width: 550px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .img2 {
+        position: relative;
+        left: 600px;
+        width: 500px;
+    }
+}
+@media screen and (min-width:1300px) {
+    .img2 {
+        position: relative;
+        left: 800px;
+        width: 600px;
+    }
+}
 .button2 {
     position: relative;
     top: 110px;
@@ -212,7 +249,12 @@ body {
     }
 
 }
-
+@media screen and (min-width:1025px) {
+    .card-decsr {
+        margin-left: -240px !important;
+        
+    }
+}
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -222,7 +264,13 @@ body {
     gap: 30px;
 
 }
-
+@media screen and (min-width:1025px ) {
+    .card-decsr {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: -20px;
+    }
+}
 .ul-list {
     background-color: gray;
     width: 1200px;
@@ -239,7 +287,25 @@ body {
     }
 
 }
+@media screen and (min-width:1025px) {
+    .ul-list {
+        margin-left: 50px;
+        max-width: 900px;
+    }
 
+}
+@media screen and (min-width:1100px) {
+    .ul-list {
+        margin-left: 150px;
+        max-width: 900px;
+    }
+}
+@media screen and (min-width:1300px) {
+    .ul-list {
+        margin-left: 300px;
+        max-width: 900px;
+    }
+}
 .img-gay {
     position: relative;
     left: 400px;
@@ -705,11 +771,12 @@ body {
     .ul-img {
         margin-top: 70px;
     }
-    .ul-foot{
-       position: relative;
-       left: 100px;
+
+    .ul-foot {
+        position: relative;
+        left: 100px;
     }
-    
+
 }
 
 .name-inp {
@@ -787,7 +854,7 @@ body {
     margin-left: 600px;
     position: relative;
     bottom: 210px;
-   margin-left: 330px;
+    margin-left: 330px;
 }
 
 .label-foot {
@@ -823,6 +890,9 @@ body {
     body {
         max-width: 1024px;
         margin: 0;
+        display: flex;
+        justify-content: center;
+
     }
 
     .container {
