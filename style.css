@@ -4,7 +4,9 @@ html {
 
 body {
     margin: 0;
+    
 }
+
 
 .container {
     width: 100%;
@@ -528,7 +530,9 @@ body {
 }
 @media screen and (min-width:1300px) {
     .margin4 {
-       gap: 40px;
+       width: 1300px;
+       position: relative;
+       left: 200px;
     }
 }
 .margin4 {
@@ -548,7 +552,8 @@ body {
 }
 @media screen and (min-width:1045px) {
     .margin4 {
-        margin-left: -25px;
+      position: relative;
+      left: 200px;
     }
 }
 @media screen and (min-width:1123px) {
@@ -810,7 +815,12 @@ body {
     }
 
 }
-
+@media screen and (min-width:1300px) {
+    .bagr {
+        margin-left:110px;
+        width: 1300px;
+}
+}
 .name-inp {
     padding-left: 20px;
 }
